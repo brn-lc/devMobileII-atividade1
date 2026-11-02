@@ -1,0 +1,36 @@
+name: coleta_localizacoes
+description: Coleta e visualização de localizações.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^13.0.1
+  geolocator_android: ^4.6.1
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  flutter_map: ^7.0.2
+  flutter_map_cache: ^1.5.0
+  dio_cache_interceptor_file_store: ^1.2.3
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/localizacoes.png
+
+flutter_launcher_icons:
+  android: "ic_localizacoes"
+  ios: false
+  image_path: "assets/icons/localizacoes.png"
