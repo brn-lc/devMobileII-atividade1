@@ -1,5 +1,5 @@
-import '../../../models/localizacao.dart';
-import '../banco_localizacoes.dart';
+import '../../models/localizacao.dart';
+import '../database/banco_localizacoes.dart';
 
 class RepositorioLocalizacoes {
   Future<void> inserir(Localizacao loc) async {

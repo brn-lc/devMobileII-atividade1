@@ -1,5 +1,5 @@
-import 'package:coleta_localizacoes/features/localizacoes/data/database/repositories/repositorio_localizacoes.dart';
-import 'package:coleta_localizacoes/features/localizacoes/data/database/repositories/services/cache_mapa.dart';
+import 'package:coleta_localizacoes/features/localizacoes/data/repositories/repositorio_localizacoes.dart';
+import 'package:coleta_localizacoes/features/localizacoes/services/cache_mapa.dart';
 import 'package:coleta_localizacoes/features/localizacoes/models/localizacao.dart';
 import 'package:coleta_localizacoes/features/localizacoes/presentation/widgets/mapa_localizacoes.dart';
 import 'package:flutter/material.dart';

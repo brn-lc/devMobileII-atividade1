@@ -1,4 +1,4 @@
-import 'package:coleta_localizacoes/features/localizacoes/data/database/repositories/repositorio_localizacoes.dart';
+import 'package:coleta_localizacoes/features/localizacoes/data/repositories/repositorio_localizacoes.dart';
 import 'package:coleta_localizacoes/features/localizacoes/models/localizacao.dart';
 import 'package:coleta_localizacoes/features/localizacoes/presentation/widgets/item_localizacao.dart';
 import 'package:flutter/material.dart';

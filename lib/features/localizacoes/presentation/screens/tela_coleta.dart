@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:coleta_localizacoes/features/localizacoes/data/database/repositories/repositorio_localizacoes.dart';
-import 'package:coleta_localizacoes/features/localizacoes/data/database/repositories/services/servico_localizacao.dart';
+import 'package:coleta_localizacoes/features/localizacoes/data/repositories/repositorio_localizacoes.dart';
+import 'package:coleta_localizacoes/features/localizacoes/services/servico_localizacao.dart';
 import 'package:coleta_localizacoes/features/localizacoes/models/localizacao.dart';
 import 'package:coleta_localizacoes/features/localizacoes/presentation/screens/tela_localizacoes.dart';
 import 'package:coleta_localizacoes/features/localizacoes/presentation/screens/tela_mapa.dart';
